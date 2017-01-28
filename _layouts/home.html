@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="home">
+  
+  {{ content }}
+
+  <h2 class="page-heading">Featured Work</h2>
+
+  <ul class="post-list">
+    {% for post in site.tags.featured %}
+      <li>
+        <a class="post-link" href="{{ post.url | relative_url }}"><img src="{{ post.featuredimg }}"></a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h2 class="page-heading">All Works</h2>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="half-width">
+          <a class="post-link" href="{{ post.url | relative_url }}"><img src="{{ post.featuredimg }}"></a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
