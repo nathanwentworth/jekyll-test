@@ -19,6 +19,7 @@ Friender Bender is a local-multiplayer sabotage driving game, where up to 4 play
 You can download the game from [itch.io](https://wickedly.itch.io/friender-bender) and coming soon on [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=816824713)!
 
 My contributions on this project included:
+
 * Assembly
 * Concept Design
 * Production
