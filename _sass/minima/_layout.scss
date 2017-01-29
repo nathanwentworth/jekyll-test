@@ -230,11 +230,11 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin: auto;
+  margin: 3em auto;
   max-width: 1920px;
 
   li {
-    margin: 3em auto;
+    margin: 0 auto;
   }
 }
 .half-width {
