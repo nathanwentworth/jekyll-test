@@ -1,7 +1,7 @@
 <header class="site-header">
   <div class="flex-left">
     <a href="{{ "/" | relative_url}}" class="site-title">{{ site.title | escape }}</a>
-    <h3 id="subtitle" onmouseleave="TextReset();">{{ site.short_desc }}</h3>
+    <h3 id="subtitle" onmousemove="Scramble();" onmouseleave="TextReset();">{{ site.short_desc }}</h3>
   </div>
   <div class="flex-right">
     <!-- here's the social media links! -->
