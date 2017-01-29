@@ -6,14 +6,16 @@
   <div class="flex-right">
     <!-- here's the social media links! -->
     <div class="social-media">
-      <a href="https://github.com/theconbot"><img src="/img/social/GitHub-Mark-Light-64px.png"></a>
-      <a href="https://twitter.com/theconbot"><img src="/img/social/Twitter_Social_Icon_Circle_White.png"></a>
-      <a href="mailto:connor.botts@gmail.com"><img src="/img/social/At_sign.svg"></a>
-      <a href="https://www.linkedin.com/in/connor-botts-95a99a7a"><img src="/img/social/In-White-66px-TM.png"></a>
+      <a href="https://github.com/theconbot"><img src="{{ site.github.url }}/img/social/GitHub-Mark-Light-64px.png"></a>
+      <a href="https://twitter.com/theconbot"><img src="{{ site.github.url }}/img/social/Twitter_Social_Icon_Circle_White.png"></a>
+      <a href="mailto:connor.botts@gmail.com"><img src="{{ site.github.url }}/img/social/At_sign.svg"></a>
+      <a href="https://www.linkedin.com/in/connor-botts-95a99a7a"><img src="{{ site.github.url }}/img/social/In-White-66px-TM.png"></a>
     </div>
     <!-- here's where the page links go, if you ever wanted more -->
     <nav>
-      <a href="{{ site.github.url }}/about/">About Me</a>
+      {% for page in site.pages %}
+      <a href="{{ site.github.url }}{{page.url}}">{{ page.title }}</a>
+      {% endfor %}
     </nav>
   </div>
 </header>
