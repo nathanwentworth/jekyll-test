@@ -305,11 +305,10 @@
   }
 
   img {
-    margin-bottom: $spacing-unit;
     max-height: 90vh;
     height: auto;
     display: block;
-    margin: auto;
+    margin: $spacing-unit auto;
   }
 
 }
