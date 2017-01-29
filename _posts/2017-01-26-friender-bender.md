@@ -24,7 +24,7 @@ My contributions on this project included:
 * Production
 * Programming (C#)
 
-![Friender Bender 1](/img/friender-bender/FB (1).png)
-![Friender Bender 2](/img/friender-bender/FB (2).png)
-![Friender Bender 3](/img/friender-bender/FB (3).png)
-![Friender Bender 4](/img/friender-bender/FB (4).png)
+![Friender Bender 1]({{ site.github.url }}/img/friender-bender/FB (1).png)
+![Friender Bender 2]({{ site.github.url }}/img/friender-bender/FB (2).png)
+![Friender Bender 3]({{ site.github.url }}/img/friender-bender/FB (3).png)
+![Friender Bender 4]({{ site.github.url }}/img/friender-bender/FB (4).png)
