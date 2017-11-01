@@ -6,6 +6,8 @@ layout: default
 
   {{ content }}
 
+  {% if site.tags.featured %}
+
   <h2 class="page-heading">Featured Work</h2>
 
   <ul class="post-list">
@@ -17,6 +19,8 @@ layout: default
   </ul>
 
   <h2 class="page-heading">All Works</h2>
+
+  {% endif %}
 
   <ul class="post-list">
     {% for post in site.posts %}
