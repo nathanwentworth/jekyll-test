@@ -23,12 +23,3 @@ twitter_username: theconbot
 github_username:  theconbot
 
 permalink: /:title/
-
-# Build settings
-markdown: kramdown
-# theme: minima
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock

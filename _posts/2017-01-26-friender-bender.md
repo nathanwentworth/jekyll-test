@@ -3,16 +3,16 @@ layout: post
 title:  "Friender Bender"
 date:   2017-01-26 20:08:37 -0500
 categories: game
-featuredimg: /img/friender-bender/FB_Cover.png
+image: /img/friender-bender/FB_Cover.png
 tags: featured game
 ---
 Friender Bender is a local-multiplayer sabotage driving game, where up to 4 players take turns controlling 1 car, avoiding obstacles and navigating 2 increasingly crazy courses.
 
-"Backseat drivers finally have an outlet for their frustration" 
+>"Backseat drivers finally have an outlet for their frustration" 
 
 \- [PC Gamer](http://www.pcgamer.com/free-games-of-the-week)
 
-"A superb piece of local multiplayer sabotage." 
+>"A superb piece of local multiplayer sabotage." 
 
 \- [Free Game Planet](https://www.freegameplanet.com/friender-bender-download-game/)
 

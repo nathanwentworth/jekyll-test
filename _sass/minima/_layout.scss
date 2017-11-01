@@ -14,7 +14,7 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
-  
+
 
   .flex-right {
     margin-left: auto;
@@ -277,6 +277,9 @@
   @include media-query($on-laptop) {
     font-size: 36px;
   }
+}
+.header-image {
+  margin-top: 1rem;
 }
 
 .post-content {

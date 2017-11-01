@@ -5,7 +5,9 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <img src="{{ site.github.url }}{{ page.featuredimg }}">
+    {% if page.image %}
+    <img class="header-image" src="{{ site.github.url }}{{ page.image }}">
+    {% endif %}
   </header>
 
   <div class="post-content" itemprop="articleBody">

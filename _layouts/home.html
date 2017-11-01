@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="home">
-  
+
   {{ content }}
 
   <h2 class="page-heading">Featured Work</h2>
@@ -11,7 +11,7 @@ layout: default
   <ul class="post-list">
     {% for post in site.tags.featured %}
       <li>
-        <a class="post-link" href="{{ post.url | relative_url }}"><img src="{{ site.github.url }}{{ post.featuredimg }}"></a>
+        <a class="post-link" href="{{ post.url | relative_url }}"><img src="{{ site.github.url }}{{ post.image }}"></a>
       </li>
     {% endfor %}
   </ul>
@@ -21,7 +21,7 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li class="half-width">
-          <a class="post-link" href="{{ post.url | relative_url }}"><img src="{{ site.github.url }}{{ post.featuredimg }}"></a>
+          <a class="post-link" href="{{ post.url | relative_url }}"><img src="{{ site.github.url }}{{ post.image }}"></a>
       </li>
     {% endfor %}
       <li class="half-width">
